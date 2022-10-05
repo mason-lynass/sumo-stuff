@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <form action="http://localhost:3000/wrestlers" method="POST" id="rikishiForm">
+                <h2>new rikishi form:</h2>
+                <label for="shikona">shikona</label>
+                <input type="text" id="shikona"/>
+                <label for="image">link to image</label>
+                <input type="link" id="img"/>
+                <label for="rank">rank</label>
+                <input type="text" id="rank"/>
+                <label for="highest-rank">highest rank</label>
+                <input type="text" id="highestRank"/>
+                <label for="yusho">yusho</label>
+                <input type="text" id="yusho"/>
+                <label for="kinboshi">kinboshi</label>
+                <input type="text" id="kinboshi"/>
+                <label for="fsAki">fantasy sumo points last basho</label>
+                <input type="text" id="fsAki"/>
+                <input type="submit" id="submit"/> 
+            </form>
+        </div>
+        <hr>
+        <ul id="addedRikishiList" class="cards">
+            <!--new rikishi go here-->
+        </ul>
+    </body>
+    <script src="index.js"></script>
+</html>

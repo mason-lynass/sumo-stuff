@@ -1,0 +1,53 @@
+input {
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+}
+
+#submit {
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+body {
+    margin: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+#rikishiForm {
+    align-items: center;
+    padding: 10px 50px;
+    border: 5px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.content {
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+    border: 2px solid black;
+}
